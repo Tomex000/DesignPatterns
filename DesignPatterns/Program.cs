@@ -16,6 +16,8 @@ namespace DesignPatterns
 
             var car1 = carBuilder.Build(); //members have correct values at the begining 
             var car2 = carBuilder.SetColor(Color.Black).SetRoof(false).SetSedan().Build();
+
+            Console.WriteLine(Singleton.Singleton.Instance.ToString());
         }
     }
 }
