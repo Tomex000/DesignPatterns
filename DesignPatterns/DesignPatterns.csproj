@@ -49,6 +49,10 @@
     <Compile Include="Decorator\Car.cs" />
     <Compile Include="Decorator\CarDecorator.cs" />
     <Compile Include="Decorator\ICar.cs" />
+    <Compile Include="Factory\Car.cs" />
+    <Compile Include="Factory\CarFactory.cs" />
+    <Compile Include="Factory\Sedan.cs" />
+    <Compile Include="Factory\Suv.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
